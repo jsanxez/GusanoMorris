@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 3434556}
   m_Layer: 0
   m_Name: Bench
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -232,7 +232,7 @@ GameObject:
   - component: {fileID: 12801431}
   m_Layer: 0
   m_Name: Tree_3
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -329,7 +329,7 @@ GameObject:
   - component: {fileID: 13963395}
   m_Layer: 0
   m_Name: FanceConnector (3)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -422,9 +422,10 @@ GameObject:
   - component: {fileID: 35825010}
   - component: {fileID: 35825012}
   - component: {fileID: 35825011}
+  - component: {fileID: 35825013}
   m_Layer: 0
   m_Name: WaterTile. (11)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -492,6 +493,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 35825009}
   m_Mesh: {fileID: 4300014, guid: 72e643619fa32984785527a0c110a313, type: 3}
+--- !u!65 &35825013
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 35825009}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0000005, y: 4.0000005, z: 0.7849483}
+  m_Center: {x: -0.00000023841858, y: -0.0000000010792752, z: -0.018107234}
 --- !u!1 &44057563
 GameObject:
   m_ObjectHideFlags: 0
@@ -507,7 +521,7 @@ GameObject:
   - component: {fileID: 44057567}
   m_Layer: 0
   m_Name: Fountain_1
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -601,9 +615,10 @@ GameObject:
   - component: {fileID: 68323911}
   - component: {fileID: 68323913}
   - component: {fileID: 68323912}
+  - component: {fileID: 68323914}
   m_Layer: 0
   m_Name: WaterTile. (6)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -671,6 +686,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 68323910}
   m_Mesh: {fileID: 4300014, guid: 72e643619fa32984785527a0c110a313, type: 3}
+--- !u!65 &68323914
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68323910}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0000005, y: 4.0000005, z: 0.7849483}
+  m_Center: {x: -0.00000023841858, y: -0.0000000010792752, z: -0.018107234}
 --- !u!1 &71866891
 GameObject:
   m_ObjectHideFlags: 0
@@ -686,7 +714,7 @@ GameObject:
   - component: {fileID: 71866895}
   m_Layer: 0
   m_Name: Tree_3 (1)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -783,7 +811,7 @@ GameObject:
   - component: {fileID: 80461603}
   m_Layer: 0
   m_Name: Tile_Road (1)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -880,7 +908,7 @@ GameObject:
   - component: {fileID: 85664123}
   m_Layer: 0
   m_Name: Tree_4 (15)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -977,7 +1005,7 @@ GameObject:
   - component: {fileID: 100019288}
   m_Layer: 0
   m_Name: Tile_Intersection (1)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1074,7 +1102,7 @@ GameObject:
   - component: {fileID: 109361795}
   m_Layer: 0
   m_Name: FanceConnector (5)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1170,7 +1198,7 @@ GameObject:
   - component: {fileID: 124803213}
   m_Layer: 0
   m_Name: Tree_4 (1)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1262,6 +1290,22 @@ PrefabInstance:
     - target: {fileID: 100006, guid: 92bad9ac7bb39fa4d9ce8fc2d181f64f, type: 3}
       propertyPath: m_Name
       value: Hovels
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 92bad9ac7bb39fa4d9ce8fc2d181f64f, type: 3}
+      propertyPath: m_TagString
+      value: ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 92bad9ac7bb39fa4d9ce8fc2d181f64f, type: 3}
+      propertyPath: m_TagString
+      value: ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 92bad9ac7bb39fa4d9ce8fc2d181f64f, type: 3}
+      propertyPath: m_TagString
+      value: ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 92bad9ac7bb39fa4d9ce8fc2d181f64f, type: 3}
+      propertyPath: m_TagString
+      value: ground
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 92bad9ac7bb39fa4d9ce8fc2d181f64f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1456,7 +1500,7 @@ GameObject:
   - component: {fileID: 136315628}
   m_Layer: 0
   m_Name: FanceConnector (6)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1552,7 +1596,7 @@ GameObject:
   - component: {fileID: 144000591}
   m_Layer: 0
   m_Name: Lamp (4)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1650,7 +1694,7 @@ GameObject:
   - component: {fileID: 175611145}
   m_Layer: 0
   m_Name: Flowers (3)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1743,9 +1787,10 @@ GameObject:
   - component: {fileID: 216568532}
   - component: {fileID: 216568534}
   - component: {fileID: 216568533}
+  - component: {fileID: 216568535}
   m_Layer: 0
   m_Name: WaterTile. (9)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1813,6 +1858,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 216568531}
   m_Mesh: {fileID: 4300014, guid: 72e643619fa32984785527a0c110a313, type: 3}
+--- !u!65 &216568535
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216568531}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0000005, y: 4.0000005, z: 0.7849483}
+  m_Center: {x: -0.00000023841858, y: -0.0000000010792752, z: -0.018107234}
 --- !u!1 &230684823
 GameObject:
   m_ObjectHideFlags: 0
@@ -1828,7 +1886,7 @@ GameObject:
   - component: {fileID: 230684827}
   m_Layer: 0
   m_Name: GrassTile (5)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1921,9 +1979,10 @@ GameObject:
   - component: {fileID: 239741280}
   - component: {fileID: 239741282}
   - component: {fileID: 239741281}
+  - component: {fileID: 239741283}
   m_Layer: 0
   m_Name: WaterTile. (17)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1991,6 +2050,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 239741279}
   m_Mesh: {fileID: 4300014, guid: 72e643619fa32984785527a0c110a313, type: 3}
+--- !u!65 &239741283
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 239741279}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0000005, y: 4.0000005, z: 0.7849483}
+  m_Center: {x: -0.00000023841858, y: -0.0000000010792752, z: -0.018107234}
 --- !u!1 &247714828
 GameObject:
   m_ObjectHideFlags: 0
@@ -2006,7 +2078,7 @@ GameObject:
   - component: {fileID: 247714832}
   m_Layer: 0
   m_Name: Tile_High
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2103,7 +2175,7 @@ GameObject:
   - component: {fileID: 265298496}
   m_Layer: 0
   m_Name: Tree_5 (3)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2200,7 +2272,7 @@ GameObject:
   - component: {fileID: 269393211}
   m_Layer: 0
   m_Name: Tree_1 (2)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2294,9 +2366,10 @@ GameObject:
   - component: {fileID: 283488695}
   - component: {fileID: 283488697}
   - component: {fileID: 283488696}
+  - component: {fileID: 283488698}
   m_Layer: 0
   m_Name: WaterTile. (21)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2364,6 +2437,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 283488694}
   m_Mesh: {fileID: 4300014, guid: 72e643619fa32984785527a0c110a313, type: 3}
+--- !u!65 &283488698
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283488694}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0000005, y: 4.0000005, z: 0.7849483}
+  m_Center: {x: -0.00000023841858, y: -0.0000000010792752, z: -0.018107234}
 --- !u!1 &284162770
 GameObject:
   m_ObjectHideFlags: 0
@@ -2379,7 +2465,7 @@ GameObject:
   - component: {fileID: 284162774}
   m_Layer: 0
   m_Name: Rock (8)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2476,7 +2562,7 @@ GameObject:
   - component: {fileID: 335163711}
   m_Layer: 0
   m_Name: Tree_4 (13)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2573,7 +2659,7 @@ GameObject:
   - component: {fileID: 347634844}
   m_Layer: 0
   m_Name: Tree_4 (8)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2670,7 +2756,7 @@ GameObject:
   - component: {fileID: 371879083}
   m_Layer: 0
   m_Name: Tree_4 (7)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2767,7 +2853,7 @@ GameObject:
   - component: {fileID: 394603857}
   m_Layer: 0
   m_Name: Rock (7)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2864,7 +2950,7 @@ GameObject:
   - component: {fileID: 394608851}
   m_Layer: 0
   m_Name: Bush (2)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2961,7 +3047,7 @@ GameObject:
   - component: {fileID: 403160902}
   m_Layer: 0
   m_Name: Fence_0 (1)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3057,7 +3143,7 @@ GameObject:
   - component: {fileID: 406471225}
   m_Layer: 0
   m_Name: Tree_3 (7)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3154,7 +3240,7 @@ GameObject:
   - component: {fileID: 438495798}
   m_Layer: 0
   m_Name: Tree_3 (6)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3251,7 +3337,7 @@ GameObject:
   - component: {fileID: 439331352}
   m_Layer: 0
   m_Name: Bridge
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3348,7 +3434,7 @@ GameObject:
   - component: {fileID: 441175623}
   m_Layer: 0
   m_Name: Lamp
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3446,7 +3532,7 @@ GameObject:
   - component: {fileID: 443134561}
   m_Layer: 0
   m_Name: Fence_0
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3616,7 +3702,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 44.219997, y: -55.6, z: 0}
 --- !u!1 &451645311
 GameObject:
@@ -3633,7 +3719,7 @@ GameObject:
   - component: {fileID: 451645315}
   m_Layer: 0
   m_Name: Tree_3 (5)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3730,7 +3816,7 @@ GameObject:
   - component: {fileID: 466904878}
   m_Layer: 0
   m_Name: Tree_4 (11)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3827,7 +3913,7 @@ GameObject:
   - component: {fileID: 473505091}
   m_Layer: 0
   m_Name: Trassh Bin (2)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3920,9 +4006,10 @@ GameObject:
   - component: {fileID: 499179897}
   - component: {fileID: 499179899}
   - component: {fileID: 499179898}
+  - component: {fileID: 499179900}
   m_Layer: 0
   m_Name: WaterTile. (14)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3990,6 +4077,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 499179896}
   m_Mesh: {fileID: 4300014, guid: 72e643619fa32984785527a0c110a313, type: 3}
+--- !u!65 &499179900
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499179896}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0000005, y: 4.0000005, z: 0.7849483}
+  m_Center: {x: -0.00000023841858, y: -0.0000000010792752, z: -0.018107234}
 --- !u!1 &504572614
 GameObject:
   m_ObjectHideFlags: 0
@@ -4005,7 +4105,7 @@ GameObject:
   - component: {fileID: 504572618}
   m_Layer: 0
   m_Name: Tree_5 (1)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4102,7 +4202,7 @@ GameObject:
   - component: {fileID: 514858023}
   m_Layer: 0
   m_Name: Tree_3 (4)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4199,7 +4299,7 @@ GameObject:
   - component: {fileID: 517795536}
   m_Layer: 0
   m_Name: Tree_2
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4293,9 +4393,10 @@ GameObject:
   - component: {fileID: 522179658}
   - component: {fileID: 522179660}
   - component: {fileID: 522179659}
+  - component: {fileID: 522179661}
   m_Layer: 0
   m_Name: WaterTile. (3)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4363,6 +4464,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 522179657}
   m_Mesh: {fileID: 4300014, guid: 72e643619fa32984785527a0c110a313, type: 3}
+--- !u!65 &522179661
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 522179657}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0000005, y: 4.0000005, z: 0.7849483}
+  m_Center: {x: -0.00000023841858, y: -0.0000000010792752, z: -0.018107234}
 --- !u!1 &527201194
 GameObject:
   m_ObjectHideFlags: 0
@@ -4378,7 +4492,7 @@ GameObject:
   - component: {fileID: 527201198}
   m_Layer: 0
   m_Name: GrassTile (2)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4474,7 +4588,7 @@ GameObject:
   - component: {fileID: 563263287}
   m_Layer: 0
   m_Name: Rock (10)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4571,7 +4685,7 @@ GameObject:
   - component: {fileID: 574506563}
   m_Layer: 0
   m_Name: Tree_3 (2)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4668,7 +4782,7 @@ GameObject:
   - component: {fileID: 579014707}
   m_Layer: 0
   m_Name: Lamp (5)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4763,9 +4877,10 @@ GameObject:
   - component: {fileID: 580298905}
   - component: {fileID: 580298907}
   - component: {fileID: 580298906}
+  - component: {fileID: 580298908}
   m_Layer: 0
   m_Name: WaterTile. (2)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4833,6 +4948,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 580298904}
   m_Mesh: {fileID: 4300014, guid: 72e643619fa32984785527a0c110a313, type: 3}
+--- !u!65 &580298908
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580298904}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0000005, y: 4.0000005, z: 0.7849483}
+  m_Center: {x: -0.00000023841858, y: -0.0000000010792752, z: -0.018107234}
 --- !u!1 &630015523
 GameObject:
   m_ObjectHideFlags: 0
@@ -4848,7 +4976,7 @@ GameObject:
   - component: {fileID: 630015527}
   m_Layer: 0
   m_Name: Tree_1 (1)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4942,9 +5070,10 @@ GameObject:
   - component: {fileID: 632523800}
   - component: {fileID: 632523802}
   - component: {fileID: 632523801}
+  - component: {fileID: 632523803}
   m_Layer: 0
   m_Name: WaterTile. (19)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5012,6 +5141,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 632523799}
   m_Mesh: {fileID: 4300014, guid: 72e643619fa32984785527a0c110a313, type: 3}
+--- !u!65 &632523803
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632523799}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0000005, y: 4.0000005, z: 0.7849483}
+  m_Center: {x: -0.00000023841858, y: -0.0000000010792752, z: -0.018107234}
 --- !u!1 &664960638
 GameObject:
   m_ObjectHideFlags: 0
@@ -5027,7 +5169,7 @@ GameObject:
   - component: {fileID: 664960642}
   m_Layer: 0
   m_Name: Trassh Bin (1)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5123,7 +5265,7 @@ GameObject:
   - component: {fileID: 670697704}
   m_Layer: 0
   m_Name: GrassTile (7)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5216,9 +5358,10 @@ GameObject:
   - component: {fileID: 677356145}
   - component: {fileID: 677356147}
   - component: {fileID: 677356146}
+  - component: {fileID: 677356148}
   m_Layer: 0
   m_Name: WaterTile. (4)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5286,6 +5429,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 677356144}
   m_Mesh: {fileID: 4300014, guid: 72e643619fa32984785527a0c110a313, type: 3}
+--- !u!65 &677356148
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 677356144}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0000005, y: 4.0000005, z: 0.7849483}
+  m_Center: {x: -0.00000023841858, y: -0.0000000010792752, z: -0.018107234}
 --- !u!1 &707484158
 GameObject:
   m_ObjectHideFlags: 0
@@ -5301,7 +5457,7 @@ GameObject:
   - component: {fileID: 707484162}
   m_Layer: 0
   m_Name: FanceConnector (4)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5397,7 +5553,7 @@ GameObject:
   - component: {fileID: 707758203}
   m_Layer: 0
   m_Name: Tile_High (2)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5494,7 +5650,7 @@ GameObject:
   - component: {fileID: 743180165}
   m_Layer: 0
   m_Name: Lamp (6)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5592,7 +5748,7 @@ GameObject:
   - component: {fileID: 767246651}
   m_Layer: 0
   m_Name: Tree_4 (9)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5689,7 +5845,7 @@ GameObject:
   - component: {fileID: 769522336}
   m_Layer: 0
   m_Name: Rock (6)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5786,7 +5942,7 @@ GameObject:
   - component: {fileID: 770315108}
   m_Layer: 0
   m_Name: Rock (4)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5883,7 +6039,7 @@ GameObject:
   - component: {fileID: 773229297}
   m_Layer: 0
   m_Name: Tree_4 (10)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5977,9 +6133,10 @@ GameObject:
   - component: {fileID: 777001708}
   - component: {fileID: 777001710}
   - component: {fileID: 777001709}
+  - component: {fileID: 777001711}
   m_Layer: 0
   m_Name: WaterTile. (16)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6047,6 +6204,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 777001707}
   m_Mesh: {fileID: 4300014, guid: 72e643619fa32984785527a0c110a313, type: 3}
+--- !u!65 &777001711
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777001707}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0000005, y: 4.0000005, z: 0.7849483}
+  m_Center: {x: -0.00000023841858, y: -0.0000000010792752, z: -0.018107234}
 --- !u!1 &813795021
 GameObject:
   m_ObjectHideFlags: 0
@@ -6062,7 +6232,7 @@ GameObject:
   - component: {fileID: 813795025}
   m_Layer: 0
   m_Name: DoubleBench (1)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6159,7 +6329,7 @@ GameObject:
   - component: {fileID: 841824845}
   m_Layer: 0
   m_Name: Lamp (2)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6257,7 +6427,7 @@ GameObject:
   - component: {fileID: 859367930}
   m_Layer: 0
   m_Name: Fence_0 (2)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6350,9 +6520,10 @@ GameObject:
   - component: {fileID: 863187848}
   - component: {fileID: 863187850}
   - component: {fileID: 863187849}
+  - component: {fileID: 863187851}
   m_Layer: 0
   m_Name: WaterTile. (24)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6420,6 +6591,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863187847}
   m_Mesh: {fileID: 4300014, guid: 72e643619fa32984785527a0c110a313, type: 3}
+--- !u!65 &863187851
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863187847}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0000005, y: 4.0000005, z: 0.7849483}
+  m_Center: {x: -0.00000023841858, y: -0.0000000010792752, z: -0.018107234}
 --- !u!1 &864885924
 GameObject:
   m_ObjectHideFlags: 0
@@ -6432,7 +6616,7 @@ GameObject:
   - component: {fileID: 864885925}
   m_Layer: 0
   m_Name: Park
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6617,7 +6801,7 @@ GameObject:
   - component: {fileID: 874918285}
   m_Layer: 0
   m_Name: Bush (8)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6714,7 +6898,7 @@ GameObject:
   - component: {fileID: 877741300}
   m_Layer: 0
   m_Name: Bush
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6810,7 +6994,7 @@ GameObject:
   - component: {fileID: 957411408}
   m_Layer: 0
   m_Name: GrassTile (3)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6904,6 +7088,7 @@ GameObject:
   - component: {fileID: 971517107}
   - component: {fileID: 971517106}
   - component: {fileID: 971517110}
+  - component: {fileID: 971517111}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -6978,8 +7163,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 971517105}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.1, y: 2, z: 14.1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 10.1, y: 2, z: -12.07}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1461437260}
@@ -6998,8 +7183,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631d177582dcafa44bad7956d7c0a67b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
-  turnSpeed: 200
+  speed: 1000
+--- !u!54 &971517111
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971517105}
+  serializedVersion: 2
+  m_Mass: 50
+  m_Drag: 1
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
 --- !u!1 &987740435
 GameObject:
   m_ObjectHideFlags: 0
@@ -7015,7 +7215,7 @@ GameObject:
   - component: {fileID: 987740439}
   m_Layer: 0
   m_Name: Tree_1
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7112,7 +7312,7 @@ GameObject:
   - component: {fileID: 1000781928}
   m_Layer: 0
   m_Name: Tree_4 (4)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7206,9 +7406,10 @@ GameObject:
   - component: {fileID: 1002983959}
   - component: {fileID: 1002983961}
   - component: {fileID: 1002983960}
+  - component: {fileID: 1002983962}
   m_Layer: 0
   m_Name: WaterTile. (20)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7276,6 +7477,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1002983958}
   m_Mesh: {fileID: 4300014, guid: 72e643619fa32984785527a0c110a313, type: 3}
+--- !u!65 &1002983962
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002983958}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0000005, y: 4.0000005, z: 0.7849483}
+  m_Center: {x: -0.00000023841858, y: -0.0000000010792752, z: -0.018107234}
 --- !u!1 &1040993024
 GameObject:
   m_ObjectHideFlags: 0
@@ -7288,9 +7502,10 @@ GameObject:
   - component: {fileID: 1040993027}
   - component: {fileID: 1040993026}
   - component: {fileID: 1040993025}
+  - component: {fileID: 1040993028}
   m_Layer: 0
   m_Name: WaterTile. (1)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7358,6 +7573,19 @@ Transform:
   m_Father: {fileID: 864885925}
   m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1040993028
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040993024}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0000005, y: 4.0000005, z: 0.7849483}
+  m_Center: {x: -0.00000023841858, y: -0.0000000010792752, z: -0.018107234}
 --- !u!1 &1042243690
 GameObject:
   m_ObjectHideFlags: 0
@@ -7373,7 +7601,7 @@ GameObject:
   - component: {fileID: 1042243694}
   m_Layer: 0
   m_Name: Wooden Bridge
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7470,7 +7698,7 @@ GameObject:
   - component: {fileID: 1063445189}
   m_Layer: 0
   m_Name: Tree_4 (5)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7564,9 +7792,10 @@ GameObject:
   - component: {fileID: 1081054897}
   - component: {fileID: 1081054899}
   - component: {fileID: 1081054898}
+  - component: {fileID: 1081054900}
   m_Layer: 0
   m_Name: WaterTile. (7)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7634,6 +7863,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1081054896}
   m_Mesh: {fileID: 4300014, guid: 72e643619fa32984785527a0c110a313, type: 3}
+--- !u!65 &1081054900
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081054896}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0000005, y: 4.0000005, z: 0.7849483}
+  m_Center: {x: -0.00000023841858, y: -0.0000000010792752, z: -0.018107234}
 --- !u!1 &1092891129
 GameObject:
   m_ObjectHideFlags: 0
@@ -7646,9 +7888,10 @@ GameObject:
   - component: {fileID: 1092891130}
   - component: {fileID: 1092891132}
   - component: {fileID: 1092891131}
+  - component: {fileID: 1092891133}
   m_Layer: 0
   m_Name: WaterTile. (23)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7716,6 +7959,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1092891129}
   m_Mesh: {fileID: 4300014, guid: 72e643619fa32984785527a0c110a313, type: 3}
+--- !u!65 &1092891133
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092891129}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0000005, y: 4.0000005, z: 0.7849483}
+  m_Center: {x: -0.00000023841858, y: -0.0000000010792752, z: -0.018107234}
 --- !u!1 &1143552215
 GameObject:
   m_ObjectHideFlags: 0
@@ -7731,7 +7987,7 @@ GameObject:
   - component: {fileID: 1143552219}
   m_Layer: 0
   m_Name: Tree_5 (2)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7828,7 +8084,7 @@ GameObject:
   - component: {fileID: 1162908292}
   m_Layer: 0
   m_Name: Trassh Bin
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7924,7 +8180,7 @@ GameObject:
   - component: {fileID: 1165624145}
   m_Layer: 0
   m_Name: Tile_Corner (2)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8101,12 +8357,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1178175599}
-  m_LocalRotation: {x: 0.30070576, y: 0, z: 0, w: 0.953717}
-  m_LocalPosition: {x: 9.77, y: 5.81, z: 10.93}
+  m_LocalRotation: {x: 0.30070576, y: -0, z: -0, w: 0.953717}
+  m_LocalPosition: {x: 9.95, y: 6.13, z: -19.13}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 35, y: 0, z: 0}
 --- !u!114 &1178175605
 MonoBehaviour:
@@ -8136,7 +8392,7 @@ GameObject:
   - component: {fileID: 1181713766}
   m_Layer: 0
   m_Name: Tile_Corner (3)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8233,7 +8489,7 @@ GameObject:
   - component: {fileID: 1182849777}
   m_Layer: 0
   m_Name: Tree_3 (8)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8330,7 +8586,7 @@ GameObject:
   - component: {fileID: 1187417508}
   m_Layer: 0
   m_Name: Rock (9)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8427,7 +8683,7 @@ GameObject:
   - component: {fileID: 1202803222}
   m_Layer: 0
   m_Name: GrassTile (6)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8523,7 +8779,7 @@ GameObject:
   - component: {fileID: 1205072277}
   m_Layer: 0
   m_Name: Fence_0 (4)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8616,9 +8872,10 @@ GameObject:
   - component: {fileID: 1231469135}
   - component: {fileID: 1231469137}
   - component: {fileID: 1231469136}
+  - component: {fileID: 1231469138}
   m_Layer: 0
   m_Name: WaterTile. (18)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8686,6 +8943,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1231469134}
   m_Mesh: {fileID: 4300014, guid: 72e643619fa32984785527a0c110a313, type: 3}
+--- !u!65 &1231469138
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231469134}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0000005, y: 4.0000005, z: 0.7849483}
+  m_Center: {x: -0.00000023841858, y: -0.0000000010792752, z: -0.018107234}
 --- !u!1 &1233360558
 GameObject:
   m_ObjectHideFlags: 0
@@ -8701,7 +8971,7 @@ GameObject:
   - component: {fileID: 1233360562}
   m_Layer: 0
   m_Name: Tile_High (1)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8795,9 +9065,10 @@ GameObject:
   - component: {fileID: 1266332753}
   - component: {fileID: 1266332755}
   - component: {fileID: 1266332754}
+  - component: {fileID: 1266332756}
   m_Layer: 0
   m_Name: WaterTile. (8)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8865,6 +9136,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1266332752}
   m_Mesh: {fileID: 4300014, guid: 72e643619fa32984785527a0c110a313, type: 3}
+--- !u!65 &1266332756
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1266332752}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0000005, y: 4.0000005, z: 0.7849483}
+  m_Center: {x: -0.00000023841858, y: -0.0000000010792752, z: -0.018107234}
 --- !u!1 &1277486875
 GameObject:
   m_ObjectHideFlags: 0
@@ -8877,9 +9161,10 @@ GameObject:
   - component: {fileID: 1277486876}
   - component: {fileID: 1277486878}
   - component: {fileID: 1277486877}
+  - component: {fileID: 1277486879}
   m_Layer: 0
   m_Name: WaterTile. (10)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8947,6 +9232,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1277486875}
   m_Mesh: {fileID: 4300014, guid: 72e643619fa32984785527a0c110a313, type: 3}
+--- !u!65 &1277486879
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1277486875}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0000005, y: 4.0000005, z: 0.7849483}
+  m_Center: {x: -0.00000023841858, y: -0.0000000010792752, z: -0.018107234}
 --- !u!1 &1280162311
 GameObject:
   m_ObjectHideFlags: 0
@@ -8962,7 +9260,7 @@ GameObject:
   - component: {fileID: 1280162315}
   m_Layer: 0
   m_Name: Tile_Intersection2
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9059,7 +9357,7 @@ GameObject:
   - component: {fileID: 1310259911}
   m_Layer: 0
   m_Name: Bush (4)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9156,7 +9454,7 @@ GameObject:
   - component: {fileID: 1328656666}
   m_Layer: 0
   m_Name: Tree_3 (3)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9253,7 +9551,7 @@ GameObject:
   - component: {fileID: 1346332239}
   m_Layer: 0
   m_Name: GrassTile (4)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9349,7 +9647,7 @@ GameObject:
   - component: {fileID: 1362177976}
   m_Layer: 0
   m_Name: FanceConnector
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9442,9 +9740,10 @@ GameObject:
   - component: {fileID: 1396136252}
   - component: {fileID: 1396136254}
   - component: {fileID: 1396136253}
+  - component: {fileID: 1396136255}
   m_Layer: 0
   m_Name: WaterTile. (5)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9512,6 +9811,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1396136251}
   m_Mesh: {fileID: 4300014, guid: 72e643619fa32984785527a0c110a313, type: 3}
+--- !u!65 &1396136255
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396136251}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0000005, y: 4.0000005, z: 0.7849483}
+  m_Center: {x: -0.00000023841858, y: -0.0000000010792752, z: -0.018107234}
 --- !u!1 &1408976490
 GameObject:
   m_ObjectHideFlags: 0
@@ -9527,7 +9839,7 @@ GameObject:
   - component: {fileID: 1408976494}
   m_Layer: 0
   m_Name: Bush (7)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9624,7 +9936,7 @@ GameObject:
   - component: {fileID: 1423040046}
   m_Layer: 0
   m_Name: Tree_4 (12)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9721,7 +10033,7 @@ GameObject:
   - component: {fileID: 1423075943}
   m_Layer: 0
   m_Name: GrassTile (1)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9817,7 +10129,7 @@ GameObject:
   - component: {fileID: 1423979722}
   m_Layer: 0
   m_Name: Tree_4 (6)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9914,7 +10226,7 @@ GameObject:
   - component: {fileID: 1431188582}
   m_Layer: 0
   m_Name: Flowers (4)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10010,7 +10322,7 @@ GameObject:
   - component: {fileID: 1446836270}
   m_Layer: 0
   m_Name: Tree_2 (1)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10107,7 +10419,7 @@ GameObject:
   - component: {fileID: 1447365786}
   m_Layer: 0
   m_Name: Bush (9)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10293,9 +10605,10 @@ GameObject:
   - component: {fileID: 1461734607}
   - component: {fileID: 1461734609}
   - component: {fileID: 1461734608}
+  - component: {fileID: 1461734610}
   m_Layer: 0
   m_Name: WaterTile. (13)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10363,6 +10676,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1461734606}
   m_Mesh: {fileID: 4300014, guid: 72e643619fa32984785527a0c110a313, type: 3}
+--- !u!65 &1461734610
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461734606}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0000005, y: 4.0000005, z: 0.7849483}
+  m_Center: {x: -0.00000023841858, y: -0.0000000010792752, z: -0.018107234}
 --- !u!1 &1475459809
 GameObject:
   m_ObjectHideFlags: 0
@@ -10375,9 +10701,10 @@ GameObject:
   - component: {fileID: 1475459810}
   - component: {fileID: 1475459812}
   - component: {fileID: 1475459811}
+  - component: {fileID: 1475459813}
   m_Layer: 0
   m_Name: WaterTile. (12)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10445,6 +10772,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1475459809}
   m_Mesh: {fileID: 4300014, guid: 72e643619fa32984785527a0c110a313, type: 3}
+--- !u!65 &1475459813
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475459809}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0000005, y: 4.0000005, z: 0.7849483}
+  m_Center: {x: -0.00000023841858, y: -0.0000000010792752, z: -0.018107234}
 --- !u!1 &1476102542
 GameObject:
   m_ObjectHideFlags: 0
@@ -10460,7 +10800,7 @@ GameObject:
   - component: {fileID: 1476102546}
   m_Layer: 0
   m_Name: Bush (3)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10557,7 +10897,7 @@ GameObject:
   - component: {fileID: 1501292992}
   m_Layer: 0
   m_Name: Tile_Corner (1)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10654,7 +10994,7 @@ GameObject:
   - component: {fileID: 1510720426}
   m_Layer: 0
   m_Name: Tree_4 (14)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10751,7 +11091,7 @@ GameObject:
   - component: {fileID: 1512060221}
   m_Layer: 0
   m_Name: Rock (3)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10848,7 +11188,7 @@ GameObject:
   - component: {fileID: 1540629657}
   m_Layer: 0
   m_Name: Trassh Bin (3)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10944,7 +11284,7 @@ GameObject:
   - component: {fileID: 1560887422}
   m_Layer: 0
   m_Name: Tile_High (3)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11041,7 +11381,7 @@ GameObject:
   - component: {fileID: 1562604541}
   m_Layer: 0
   m_Name: Tile_Road (2)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11138,7 +11478,7 @@ GameObject:
   - component: {fileID: 1567340326}
   m_Layer: 0
   m_Name: Boat
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11235,7 +11575,7 @@ GameObject:
   - component: {fileID: 1568776029}
   m_Layer: 0
   m_Name: Rock (11)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11332,7 +11672,7 @@ GameObject:
   - component: {fileID: 1573243373}
   m_Layer: 0
   m_Name: Tree_2 (4)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11429,7 +11769,7 @@ GameObject:
   - component: {fileID: 1579012422}
   m_Layer: 0
   m_Name: Flowers (5)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11525,7 +11865,7 @@ GameObject:
   - component: {fileID: 1581721358}
   m_Layer: 0
   m_Name: Rock (2)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11622,7 +11962,7 @@ GameObject:
   - component: {fileID: 1585682251}
   m_Layer: 0
   m_Name: FanceConnector (2)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11718,7 +12058,7 @@ GameObject:
   - component: {fileID: 1594153230}
   m_Layer: 0
   m_Name: Tree_2 (3)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11815,7 +12155,7 @@ GameObject:
   - component: {fileID: 1608617844}
   m_Layer: 0
   m_Name: Tree_4 (3)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11912,7 +12252,7 @@ GameObject:
   - component: {fileID: 1666980506}
   m_Layer: 0
   m_Name: Flowers (2)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12008,7 +12348,7 @@ GameObject:
   - component: {fileID: 1679922212}
   m_Layer: 0
   m_Name: Bush (6)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12105,7 +12445,7 @@ GameObject:
   - component: {fileID: 1721304543}
   m_Layer: 0
   m_Name: Tree_5
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12202,7 +12542,7 @@ GameObject:
   - component: {fileID: 1730757595}
   m_Layer: 0
   m_Name: Fountain1
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12299,7 +12639,7 @@ GameObject:
   - component: {fileID: 1730809104}
   m_Layer: 0
   m_Name: Lamp (7)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12397,7 +12737,7 @@ GameObject:
   - component: {fileID: 1733636934}
   m_Layer: 0
   m_Name: Flowers (6)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12490,9 +12830,10 @@ GameObject:
   - component: {fileID: 1744783130}
   - component: {fileID: 1744783132}
   - component: {fileID: 1744783131}
+  - component: {fileID: 1744783133}
   m_Layer: 0
   m_Name: WaterTile. (22)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12560,6 +12901,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1744783129}
   m_Mesh: {fileID: 4300014, guid: 72e643619fa32984785527a0c110a313, type: 3}
+--- !u!65 &1744783133
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744783129}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0000005, y: 4.0000005, z: 0.7849483}
+  m_Center: {x: -0.00000023841858, y: -0.0000000010792752, z: -0.018107234}
 --- !u!1 &1757088671
 GameObject:
   m_ObjectHideFlags: 0
@@ -12575,7 +12929,7 @@ GameObject:
   - component: {fileID: 1757088675}
   m_Layer: 0
   m_Name: Rock
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12672,7 +13026,7 @@ GameObject:
   - component: {fileID: 1764741632}
   m_Layer: 0
   m_Name: Tile_Intersection
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12769,7 +13123,7 @@ GameObject:
   - component: {fileID: 1775945297}
   m_Layer: 0
   m_Name: Rock (12)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12866,7 +13220,7 @@ GameObject:
   - component: {fileID: 1796628524}
   m_Layer: 0
   m_Name: Bush (1)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12963,7 +13317,7 @@ GameObject:
   - component: {fileID: 1820630145}
   m_Layer: 0
   m_Name: Tree_4 (2)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13060,7 +13414,7 @@ GameObject:
   - component: {fileID: 1839356066}
   m_Layer: 0
   m_Name: FanceConnector (1)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13156,7 +13510,7 @@ GameObject:
   - component: {fileID: 1848670786}
   m_Layer: 0
   m_Name: Flowers (1)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13249,9 +13603,10 @@ GameObject:
   - component: {fileID: 1859103454}
   - component: {fileID: 1859103456}
   - component: {fileID: 1859103455}
+  - component: {fileID: 1859103457}
   m_Layer: 0
   m_Name: WaterTile. (15)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13319,6 +13674,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1859103453}
   m_Mesh: {fileID: 4300014, guid: 72e643619fa32984785527a0c110a313, type: 3}
+--- !u!65 &1859103457
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1859103453}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0000005, y: 4.0000005, z: 0.7849483}
+  m_Center: {x: -0.00000023841858, y: -0.0000000010792752, z: -0.018107234}
 --- !u!1 &1873631228
 GameObject:
   m_ObjectHideFlags: 0
@@ -13334,7 +13702,7 @@ GameObject:
   - component: {fileID: 1873631232}
   m_Layer: 0
   m_Name: Fence_0 (3)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13430,7 +13798,7 @@ GameObject:
   - component: {fileID: 1873928227}
   m_Layer: 0
   m_Name: Tree_4 (19)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13527,7 +13895,7 @@ GameObject:
   - component: {fileID: 1875800913}
   m_Layer: 0
   m_Name: Tile_Road
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13624,7 +13992,7 @@ GameObject:
   - component: {fileID: 1889004839}
   m_Layer: 0
   m_Name: Bridge (1)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13734,7 +14102,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1903553442
 GameObject:
@@ -13751,7 +14119,7 @@ GameObject:
   - component: {fileID: 1903553446}
   m_Layer: 0
   m_Name: Lamp (3)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13849,7 +14217,7 @@ GameObject:
   - component: {fileID: 1904855817}
   m_Layer: 0
   m_Name: Tree_4 (16)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13946,7 +14314,7 @@ GameObject:
   - component: {fileID: 1916453205}
   m_Layer: 0
   m_Name: Tree_2 (2)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14043,7 +14411,7 @@ GameObject:
   - component: {fileID: 1931890516}
   m_Layer: 0
   m_Name: Bush (5)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14140,7 +14508,7 @@ GameObject:
   - component: {fileID: 1957061608}
   m_Layer: 0
   m_Name: Rock (1)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14237,7 +14605,7 @@ GameObject:
   - component: {fileID: 1957643880}
   m_Layer: 0
   m_Name: Flowers
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14333,7 +14701,7 @@ GameObject:
   - component: {fileID: 1983410717}
   m_Layer: 0
   m_Name: Rock (5)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14430,7 +14798,7 @@ GameObject:
   - component: {fileID: 2000278077}
   m_Layer: 0
   m_Name: FanceConnector (7)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14526,7 +14894,7 @@ GameObject:
   - component: {fileID: 2024614136}
   m_Layer: 0
   m_Name: Tile_Corner
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14623,7 +14991,7 @@ GameObject:
   - component: {fileID: 2067293523}
   m_Layer: 0
   m_Name: Tree_3 (9)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14720,7 +15088,7 @@ GameObject:
   - component: {fileID: 2126436917}
   m_Layer: 0
   m_Name: Tree_4
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14817,7 +15185,7 @@ GameObject:
   - component: {fileID: 2129845146}
   m_Layer: 0
   m_Name: Tree_4 (17)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14914,7 +15282,7 @@ GameObject:
   - component: {fileID: 2130721643}
   m_Layer: 0
   m_Name: Lamp (1)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15012,7 +15380,7 @@ GameObject:
   - component: {fileID: 2146256527}
   m_Layer: 0
   m_Name: Tree_4 (18)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
